@@ -17,13 +17,26 @@ namespace C_Sharp
             //Console.WriteLine("Password:" + password);
             //Console.ReadKey();
 
-            int ageTisha = 17;
-            int ageSajib;
-            ageSajib = ageTisha;
-            ageTisha = 24;
-            Console.WriteLine("Tisha is "+ageTisha+" years old");
-            Console.WriteLine("Sajib is "+ageSajib+" years old");
-            Console.Read();
+
+            //Value Type
+            //int ageTisha = 17;
+            //int ageSajib;
+            //ageSajib = ageTisha;
+            //ageTisha = 24;
+            //Console.WriteLine("Tisha is "+ageTisha+" years old");
+            //Console.WriteLine("Sajib is "+ageSajib+" years old");
+            //Console.Read();
+
+
+            //Reference Type
+            int[] arr = { 1, 2, 3 };
+            int[] arr2 = arr;
+            Console.WriteLine("arr[0]="+arr[0]);
+            Console.WriteLine("arr2[0]=" + arr2[0]);
+            arr[0] = 60;
+            Console.WriteLine("arr[0]= " + arr[0]);
+            Console.WriteLine("arr2[0]=" + arr2[0]);
+            Console.ReadKey();
 
 
         }
