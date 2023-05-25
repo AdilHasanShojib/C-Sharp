@@ -11,10 +11,10 @@ namespace C_Sharp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello,World!");
-            //var userName = Console.ReadLine();
-            //Console.WriteLine("Username:" + userName);
-            //var password = Console.ReadLine();
-            //Console.WriteLine("Password:" + password);
+            var userName = Console.ReadLine();
+            Console.WriteLine("Username:" + userName);
+            var password = Console.ReadLine();
+            Console.WriteLine("Password:" + password);
             Console.ReadKey();
 
 
