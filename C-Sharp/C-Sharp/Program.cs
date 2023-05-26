@@ -154,10 +154,13 @@ namespace C_Sharp
 
         static void Main(string[] args)
         {
-
+            Console.Clear();
             Console.WriteLine("Helloworld!");
             Console.Write("Hello");
             Console.Write(" Universe!");
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.ForegroundColor= ConsoleColor.Green;
+
             Console.ReadKey();
 
 
