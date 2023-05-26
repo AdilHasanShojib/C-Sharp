@@ -181,7 +181,7 @@ namespace C_Sharp
             //string concatenation
 
             int age = 24;
-            string name = "shojib";
+            string name = "shojib TALUKDER";
             string job = "student";
 
             //Console.WriteLine("My name is :" +name+" I am "+age+" years Old. I am a "+job);
@@ -191,6 +191,10 @@ namespace C_Sharp
             // string interpolation
 
             Console.WriteLine($"My name is {name}.I am  {age} years Old. I am a {job}");
+            Console.WriteLine(name.ToLower() );
+            Console.WriteLine(name.Trim() );
+            Console.WriteLine(job.IndexOf("n") );
+
             Console.ReadLine();
 
 
