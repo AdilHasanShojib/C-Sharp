@@ -57,49 +57,73 @@ namespace C_Sharp
     //    }
     //}
 
-    
-    public enum DayOfWeek // Enumeration Type (enum)
+
+    //public enum DayOfWeek // Enumeration Type (enum)
+    //{
+
+    //    Monday,
+    //    Tuesday,
+    //    Wednesday,
+    //    Thursday,
+    //    Friday,
+    //    Saturday,
+    //    Sunday
+    //}
+
+    //public class DaysOfWeek
+    //{
+
+    //    static void Main(string[] args)
+    //    {
+    //      DayOfWeek today= DayOfWeek.Friday;
+
+    //        if (today == DayOfWeek.Friday || today==DayOfWeek.Saturday)
+    //        {
+    //            Console.WriteLine("It is weekend!");
+    //        }
+
+    //        else
+    //        {
+    //            Console.WriteLine("It is weekday");
+    //        }
+
+    //        Console.ReadKey();
+
+
+    //    }
+
+
+
+    struct Point
     {
 
-        Monday,
-        Tuesday,
-        Wednesday,
-        Thursday,
-        Friday,
-        Saturday,
-        Sunday
+        public int X;
+        public int Y;
     }
 
-    public class DaysOfWeek
+    public class Coordinates
     {
-
         static void Main(string[] args)
         {
-          DayOfWeek today= DayOfWeek.Friday;
 
-            if (today == DayOfWeek.Friday || today==DayOfWeek.Saturday)
-            {
-                Console.WriteLine("It is weekend!");
-            }
+            Point P;
+            P.X = 6;
+            P.Y = 9;
+            //        Console.WriteLine("pointer coordinates: x:{0},y:{1}",P.X,P.Y);
+            //        Console.Read();
 
-            else
-            {
-                Console.WriteLine("It is weekday");
-            }
+            Console.WriteLine("Point Coordinates: X:{0},Y:{1}",P.X,P.Y);
+            Console.ReadLine();
 
-            Console.ReadKey();
+
+            
 
 
         }
 
 
 
-
     }
-
-
-
-
 
 
 
