@@ -154,14 +154,52 @@ namespace C_Sharp
 
         static void Main(string[] args)
         {
-            Console.Clear();
-            Console.WriteLine("Helloworld!");
-            Console.Write("Hello");
-            Console.Write(" Universe!");
-            Console.BackgroundColor = ConsoleColor.Red;
-            Console.ForegroundColor= ConsoleColor.Green;
+            //Console.Clear();
+            //Console.WriteLine("Helloworld!");
+            //Console.Write("Hello");
+            //Console.Write(" Universe!");
+            //Console.BackgroundColor = ConsoleColor.Red;
+            //Console.ForegroundColor= ConsoleColor.Green;
 
-            Console.ReadKey();
+            //Console.ReadKey();
+
+
+            //Explicit Cast
+            //double myAge = 23.11;
+            //int old;
+            //old = (int)myAge;
+            //Console.WriteLine("My age :" + old);
+            //Console.ReadLine();
+
+
+            //Implicit Cast
+            //string myId = "011201345";
+            //int myNum = Int32.Parse(myId);
+            //Console.WriteLine("My Varsity Id:"+myNum);
+            //Console.ReadLine();
+
+            //string concatenation
+
+            int age = 24;
+            string name = "shojib TALUKDER";
+            string job = "student";
+
+            //Console.WriteLine("My name is :" +name+" I am "+age+" years Old. I am a "+job);
+            //Console.ReadLine();
+
+
+            // string interpolation
+
+            Console.WriteLine($"My name is {name}.I am  {age} years Old. I am a {job}");
+            Console.WriteLine(name.ToLower() );
+            Console.WriteLine(name.Trim() );
+            Console.WriteLine(job.IndexOf("n") );
+
+            Console.ReadLine();
+
+
+
+
 
 
         }
