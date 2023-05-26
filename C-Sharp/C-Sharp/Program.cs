@@ -154,16 +154,22 @@ namespace C_Sharp
 
         static void Main(string[] args)
         {
-            Console.Clear();
-            Console.WriteLine("Helloworld!");
-            Console.Write("Hello");
-            Console.Write(" Universe!");
-            Console.BackgroundColor = ConsoleColor.Red;
-            Console.ForegroundColor= ConsoleColor.Green;
+            //Console.Clear();
+            //Console.WriteLine("Helloworld!");
+            //Console.Write("Hello");
+            //Console.Write(" Universe!");
+            //Console.BackgroundColor = ConsoleColor.Red;
+            //Console.ForegroundColor= ConsoleColor.Green;
 
-            Console.ReadKey();
+            //Console.ReadKey();
 
 
+            double myAge = 23.11;
+            int old;
+            old = (int)myAge;
+            Console.WriteLine("My age :" + old);
+            Console.ReadLine();
+            
         }
 
 
