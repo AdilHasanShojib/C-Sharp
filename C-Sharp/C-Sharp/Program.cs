@@ -184,8 +184,17 @@ namespace C_Sharp
             string name = "shojib";
             string job = "student";
 
-            Console.WriteLine("My name is :" +name+"I am "+age+"years Old. I am a "+job);
+            //Console.WriteLine("My name is :" +name+" I am "+age+" years Old. I am a "+job);
+            //Console.ReadLine();
+
+
+            // string interpolation
+
+            Console.WriteLine($"My name is {name}.I am  {age} years Old. I am a {job}");
             Console.ReadLine();
+
+
+
 
 
 
