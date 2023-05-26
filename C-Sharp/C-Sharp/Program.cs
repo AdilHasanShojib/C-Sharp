@@ -94,43 +94,51 @@ namespace C_Sharp
 
 
 
-    struct Point
-    {
+    //struct Point
+    //{
 
-        public int X;
-        public int Y;
-    }
+    //    public int X;
+    //    public int Y;
+    //}
 
-    public class Coordinates
-    {
-        static void Main(string[] args)
-        {
+    //public class Coordinates
+    //{
+    //    static void Main(string[] args)
+    //    {
 
-            Point P;
-            P.X = 6;
-            P.Y = 9;
-            //        Console.WriteLine("pointer coordinates: x:{0},y:{1}",P.X,P.Y);
-            //        Console.Read();
+    //        Point P;
+    //        P.X = 6;
+    //        P.Y = 9;
+           
 
-            Console.WriteLine("Point Coordinates: X:{0},Y:{1}",P.X,P.Y);
-            Console.ReadLine();
+    //        Console.WriteLine("Point Coordinates: X:{0},Y:{1}",P.X,P.Y);
+    //        Console.ReadLine();
 
 
             
 
 
+    //    }
+
+
+
+    //}
+
+
+
+
+
+  public class BuildInTuple
+    {
+        static void Main(string[] args)
+        {
+            Tuple<int, string> person = new Tuple<int, string>(24, "shojib");
+            Console.WriteLine("Person: Age={0},name={1}",person.Item1,person.Item2);
+            Console.ReadKey();
+
+
         }
-
-
-
     }
-
-
-
-
-
-
-
 
 
 
