@@ -128,28 +128,49 @@ namespace C_Sharp
 
 
 
-  public class BuildInTuple
+  //public class BuildInTuple
+  //  {
+  //      static void Main(string[] args)
+  //      {
+  //          //Tuple<int, string> person = new Tuple<int, string>(24, "shojib");
+  //          //Console.WriteLine("Person: Age={0},name={1}",person.Item1,person.Item2);
+  //          //Console.ReadKey();
+
+  //          string myName = "Shojib Talukder";
+  //          string upper=myName.ToUpper();
+  //          string lower=myName.ToLower();
+            
+  //          Console.WriteLine("WELCOME:"+upper);
+  //          Console.WriteLine("welcome:" + lower);
+  //          Console.ReadKey();
+  //      }
+  //  }
+
+
+
+
+    public class Basics
     {
+
         static void Main(string[] args)
         {
-            //Tuple<int, string> person = new Tuple<int, string>(24, "shojib");
-            //Console.WriteLine("Person: Age={0},name={1}",person.Item1,person.Item2);
-            //Console.ReadKey();
+            Console.Clear();
+            Console.WriteLine("Helloworld!");
+            Console.Write("Hello");
+            Console.Write(" Universe!");
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.ForegroundColor= ConsoleColor.Green;
 
-            string myName = "Shojib Talukder";
-            string upper=myName.ToUpper();
-            string lower=myName.ToLower();
-            
-            Console.WriteLine("WELCOME:"+upper);
-            Console.WriteLine("welcome:" + lower);
             Console.ReadKey();
+
+
         }
+
+
+
+
+
     }
-
-
-
-
-
 
 
 
