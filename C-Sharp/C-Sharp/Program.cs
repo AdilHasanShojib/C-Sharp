@@ -173,11 +173,22 @@ namespace C_Sharp
 
 
             //Implicit Cast
-            string myId = "011201345";
-            int myNum = Int32.Parse(myId);
-            Console.WriteLine("My Varsity Id:"+myNum);
+            //string myId = "011201345";
+            //int myNum = Int32.Parse(myId);
+            //Console.WriteLine("My Varsity Id:"+myNum);
+            //Console.ReadLine();
+
+            //string concatenation
+
+            int age = 24;
+            string name = "shojib";
+            string job = "student";
+
+            Console.WriteLine("My name is :" +name+"I am "+age+"years Old. I am a "+job);
             Console.ReadLine();
-            
+
+
+
         }
 
 
