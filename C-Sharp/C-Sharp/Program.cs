@@ -164,10 +164,18 @@ namespace C_Sharp
             //Console.ReadKey();
 
 
-            double myAge = 23.11;
-            int old;
-            old = (int)myAge;
-            Console.WriteLine("My age :" + old);
+            //Explicit Cast
+            //double myAge = 23.11;
+            //int old;
+            //old = (int)myAge;
+            //Console.WriteLine("My age :" + old);
+            //Console.ReadLine();
+
+
+            //Implicit Cast
+            string myId = "011201345";
+            int myNum = Int32.Parse(myId);
+            Console.WriteLine("My Varsity Id:"+myNum);
             Console.ReadLine();
             
         }
