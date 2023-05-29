@@ -35,14 +35,22 @@ namespace Operators
             //Console.ReadKey();
 
 
-            int x = 10;
-            int y = 20;
-            int a = x++;
-            int b = --y;
-            Console.WriteLine($"A:- {x} \n B:- {y}");
+            //int x = 10;
+            //int y = 20;
+            //int a = x++;
+            //int b = --y;
+            //Console.WriteLine($"A:- {x} \n B:- {y}");
+            //Console.ReadKey();
+
+            int a = 20;
+            int b = 40;
+            Console.WriteLine(a>b);
+            Console.WriteLine(b<a);
+            Console.WriteLine(a==b);
+            Console.WriteLine(b!=a);
+            Console.WriteLine(a<=b);
+            Console.WriteLine(b>=a);
             Console.ReadKey();
-
-
 
 
 
