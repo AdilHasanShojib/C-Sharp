@@ -20,9 +20,18 @@ namespace Operators
             int div=num2/num2;
             int mod=num2%num1;
 
-            Console.WriteLine($"ADD:- {add} \n SUB:- {sub} \n MULT:- {mult} \n DIV:- {div} \n MOD:- {mod}");
-            Console.ReadKey();
+            Console.WriteLine($"ADD:- {add} \n SUB:- {sub} \n MULT:- {mult} \n DIV:- {div} \n MOD:- {mod} \n");
+            
 
+            var num3 = 4;
+            var num4 = 49;
+            var num5 = 40;
+            var num6 = 455;
+            var num7 = 41;
+
+            var checkPrecedence = num3 + num6 * (num7 - num3) + num5 + num4 / num3;
+            Console.WriteLine("Result:- " + checkPrecedence);
+            Console.ReadKey();
 
 
         }
