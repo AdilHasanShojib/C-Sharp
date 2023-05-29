@@ -15,14 +15,15 @@ namespace SampleMethod
             //Console.WriteLine("After adding we got : "+add);
             //Console.ReadKey();
 
-            var sum = new MethodWithoutArgu();
-            var result1=sum.AddNumberWithoutParam();
-            Console.WriteLine(result1 );
-            var result2=sum.AddnumberWithoutConst();
-            Console.WriteLine(result2 );
-            Console.ReadLine();
-           
+            //var sum = new MethodWithoutArgu();
+            //var result1=sum.AddNumberWithoutParam();
+            //Console.WriteLine(result1 );
+            //var result2=sum.AddnumberWithoutConst();
+            //Console.WriteLine(result2 );
+            //Console.ReadLine();
 
+            var convert = new ConvertToUpper();
+            convert.Nametoupper();
 
 
         }
