@@ -53,11 +53,18 @@ namespace Operators
 
 
 
-            int a = 10; //00001010
-            int b = 15;  //00001111
-            int bitwiseResult = a & b;
-            Console.WriteLine(bitwiseResult);
+            //int a = 10; //00001010
+            //int b = 15; //00001111
+            //int bitwiseResult = a & b;
+            //Console.WriteLine(bitwiseResult);
+            //Console.ReadKey();
+
+            string firstName = "shojib";
+            string lastName = "Talukder";
+            Console.WriteLine(firstName==lastName || firstName!=lastName);
+            Console.WriteLine(firstName == lastName && firstName != lastName);
             Console.ReadKey();
+
 
 
 
