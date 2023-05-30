@@ -65,28 +65,89 @@ namespace Operators
             //Console.WriteLine(firstName == lastName && firstName != lastName);
             //Console.ReadKey();
 
-            try
+            //try
+            //{
+            //    int firstNum=int.Parse(Console.ReadLine());
+            //    int secondNum=int.Parse(Console.ReadLine());
+
+            //    int result=firstNum/secondNum;  
+            //    Console.WriteLine("Result:- "+result);
+
+
+            //}
+            //catch (DivideByZeroException ex) { 
+            
+            
+            //   Console.WriteLine($"Error:- Division by Zero is not allowed {ex.Message}");
+            
+            
+            
+            
+            //}  
+            //finally { Console.WriteLine("Fianly Done"); }
+
+            //Console.ReadKey();
+
+
+            int num = 60;
+
+            //if(num >= 0)
+            //{
+            //    Console.WriteLine("Positive Number:-");
+
+            //    if(num%2== 0)
+            //    {
+            //        Console.WriteLine("Even Number "+num);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Odd Number"+num);
+            //    }
+            //}
+
+            //else { Console.WriteLine("Negative Number" + num);
+            //}
+            //Console.ReadKey();
+
+
+            if (num == 0)
             {
-                int firstNum=int.Parse(Console.ReadLine());
-                int secondNum=int.Parse(Console.ReadLine());
+                Console.WriteLine("Number is 0");
+            }
+            else if (num == 10)
+            {
+                Console.WriteLine("Number is 10");
+            }
 
-                int result=firstNum/secondNum;  
-                Console.WriteLine("Result:- "+result);
+            else if (num == 20)
+            {
+                Console.WriteLine("Number is 20");
+            }
 
+            else
+            {
+                Console.WriteLine("Number is 60");
 
             }
-            catch (DivideByZeroException ex) { 
-            
-            
-               Console.WriteLine($"Error:- Division by Zero is not allowed {ex.Message}");
-            
-            
-            
-            
-            }  
-            finally { Console.WriteLine("Fianly Done"); }
+
+            switch (num)
+            {
+                case 0: Console.WriteLine("Num 0");
+                    break;
+                case 1: Console.WriteLine("Num 10");
+                    break;
+                case 2: Console.WriteLine("Num 20");
+                    break;
+                   
+                default: Console.WriteLine("Num 60");
+                    break;
+            }
 
             Console.ReadKey();
+
+
+
+
 
 
         }
