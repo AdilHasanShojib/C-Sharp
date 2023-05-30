@@ -59,14 +59,34 @@ namespace Operators
             //Console.WriteLine(bitwiseResult);
             //Console.ReadKey();
 
-            string firstName = "shojib";
-            string lastName = "Talukder";
-            Console.WriteLine(firstName==lastName || firstName!=lastName);
-            Console.WriteLine(firstName == lastName && firstName != lastName);
+            //string firstName = "shojib";
+            //string lastName = "Talukder";
+            //Console.WriteLine(firstName==lastName || firstName!=lastName);
+            //Console.WriteLine(firstName == lastName && firstName != lastName);
+            //Console.ReadKey();
+
+            try
+            {
+                int firstNum=int.Parse(Console.ReadLine());
+                int secondNum=int.Parse(Console.ReadLine());
+
+                int result=firstNum/secondNum;  
+                Console.WriteLine("Result:- "+result);
+
+
+            }
+            catch (DivideByZeroException ex) { 
+            
+            
+               Console.WriteLine($"Error:- Division by Zero is not allowed {ex.Message}");
+            
+            
+            
+            
+            }  
+            finally { Console.WriteLine("Fianly Done"); }
+
             Console.ReadKey();
-
-
-
 
 
         }
