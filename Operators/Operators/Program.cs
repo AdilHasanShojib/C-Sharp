@@ -42,14 +42,21 @@ namespace Operators
             //Console.WriteLine($"A:- {x} \n B:- {y}");
             //Console.ReadKey();
 
-            int a = 20;
-            int b = 40;
-            Console.WriteLine(a>b);
-            Console.WriteLine(b<a);
-            Console.WriteLine(a==b);
-            Console.WriteLine(b!=a);
-            Console.WriteLine(a<=b);
-            Console.WriteLine(b>=a);
+            //int a = 20;
+            //int b = 40;
+            //Console.WriteLine(a>b);
+            //Console.WriteLine(b<a);
+            //Console.WriteLine(a==b);
+            //Console.WriteLine(b!=a);
+            //Console.WriteLine(a<=b);
+            //Console.WriteLine(b>=a);
+
+
+
+            int a = 10; //00001010
+            int b = 15;  //00001111
+            int bitwiseResult = a & b;
+            Console.WriteLine(bitwiseResult);
             Console.ReadKey();
 
 
