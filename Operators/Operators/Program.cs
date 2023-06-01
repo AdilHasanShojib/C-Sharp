@@ -76,13 +76,13 @@ namespace Operators
 
             //}
             //catch (DivideByZeroException ex) { 
-            
-            
+
+
             //   Console.WriteLine($"Error:- Division by Zero is not allowed {ex.Message}");
-            
-            
-            
-            
+
+
+
+
             //}  
             //finally { Console.WriteLine("Fianly Done"); }
 
@@ -138,19 +138,28 @@ namespace Operators
             //        break;
             //    case 2: Console.WriteLine("Num 20");
             //        break;
-                   
+
             //    default: Console.WriteLine("Num 60");
             //        break;
             //}
 
             //Console.ReadKey();
 
-            performance perform= new performance();
-            perform.Checkperformance();
+            //performance perform= new performance();
+            //perform.Checkperformance();
 
 
 
+            int i = 0;
+            do
+            {
+                i++;
+                if (i == 3)
+                    break;
+                Console.WriteLine(i);
+            } while (i < 5);
 
+            Console.ReadKey();
 
 
         }
