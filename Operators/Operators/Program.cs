@@ -89,7 +89,7 @@ namespace Operators
             //Console.ReadKey();
 
 
-            int num = 60;
+            //int num = 60;
 
             //if(num >= 0)
             //{
@@ -110,40 +110,43 @@ namespace Operators
             //Console.ReadKey();
 
 
-            if (num == 0)
-            {
-                Console.WriteLine("Number is 0");
-            }
-            else if (num == 10)
-            {
-                Console.WriteLine("Number is 10");
-            }
+            //if (num == 0)
+            //{
+            //    Console.WriteLine("Number is 0");
+            //}
+            //else if (num == 10)
+            //{
+            //    Console.WriteLine("Number is 10");
+            //}
 
-            else if (num == 20)
-            {
-                Console.WriteLine("Number is 20");
-            }
+            //else if (num == 20)
+            //{
+            //    Console.WriteLine("Number is 20");
+            //}
 
-            else
-            {
-                Console.WriteLine("Number is 60");
+            //else
+            //{
+            //    Console.WriteLine("Number is 60");
 
-            }
+            //}
 
-            switch (num)
-            {
-                case 0: Console.WriteLine("Num 0");
-                    break;
-                case 1: Console.WriteLine("Num 10");
-                    break;
-                case 2: Console.WriteLine("Num 20");
-                    break;
+            //switch (num)
+            //{
+            //    case 0: Console.WriteLine("Num 0");
+            //        break;
+            //    case 1: Console.WriteLine("Num 10");
+            //        break;
+            //    case 2: Console.WriteLine("Num 20");
+            //        break;
                    
-                default: Console.WriteLine("Num 60");
-                    break;
-            }
+            //    default: Console.WriteLine("Num 60");
+            //        break;
+            //}
 
-            Console.ReadKey();
+            //Console.ReadKey();
+
+            performance perform= new performance();
+            perform.Checkperformance();
 
 
 
