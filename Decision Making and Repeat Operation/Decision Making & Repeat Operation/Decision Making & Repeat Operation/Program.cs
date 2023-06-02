@@ -120,11 +120,52 @@ namespace Decision_Making___Repeat_Operation
 
             //Null Coalescing
 
-            string name = null;
-            string myname = name ?? "Shojib";
+            //string name = null;
+            //string myname = name ?? "Shojib";
 
-            Console.WriteLine($"My NAME IS {myname}");
-            Console.ReadKey();
+            //Console.WriteLine($"My NAME IS {myname}");
+            //Console.ReadKey();
+
+
+            //Nesting Loop
+
+            for(int i = 2; i >=0; i--)
+            {
+                for(int j = 0; j <=2; j++)
+                {
+
+
+                    if(i == j)
+                    {
+                        Console.WriteLine("1");
+                    }
+
+
+                    else
+                    {
+                        Console.WriteLine("0");
+                    }
+
+
+                }
+
+                Console.WriteLine("\n");
+                Console.ReadKey();
+
+
+
+            }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
