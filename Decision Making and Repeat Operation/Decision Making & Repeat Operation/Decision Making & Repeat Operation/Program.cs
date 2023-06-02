@@ -115,7 +115,7 @@ namespace Decision_Making___Repeat_Operation
             //var grade = voteCount >= 90 ? "Outstanding" : voteCount >= 80 ? "good" : voteCount >= 70 ? "Average" : voteCount >= 60 ? "Below Average" : "Bad Performer";
 
             //Console.WriteLine(grade);
-   
+
 
 
             //Null Coalescing
@@ -129,34 +129,51 @@ namespace Decision_Making___Repeat_Operation
 
             //Nesting Loop
 
-            for(int i = 2; i >=0; i--)
+            //for(int i = 2; i >=0; i--)
+            //{
+            //    for(int j = 0; j <=2; j++)
+            //    {
+
+
+            //        if(i == j)
+            //        {
+            //            Console.WriteLine("1");
+            //        }
+
+
+            //        else
+            //        {
+            //            Console.WriteLine("0");
+            //        }
+
+
+            //    }
+
+            //    Console.WriteLine("\n");
+            //    Console.ReadKey();
+
+
+
+            //}
+
+
+            //String Reversal
+
+            string mystring = "Hello World";
+            string reverse = "";
+
+            for(int i =mystring.Length-1;i>=0;i--)
             {
-                for(int j = 0; j <=2; j++)
-                {
+                reverse += mystring[i];
 
 
-                    if(i == j)
-                    {
-                        Console.WriteLine("1");
-                    }
-
-
-                    else
-                    {
-                        Console.WriteLine("0");
-                    }
-
-
-                }
-
-                Console.WriteLine("\n");
-                Console.ReadKey();
 
 
 
             }
 
-
+            Console.WriteLine(reverse);
+               Console.ReadKey();
 
 
 
