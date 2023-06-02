@@ -159,28 +159,50 @@ namespace Decision_Making___Repeat_Operation
 
             //String Reversal
 
-            string mystring = "Hello World";
-            string reverse = "";
+            //string mystring = "Hello World";
+            //string reverse = "";
 
-            for(int i =mystring.Length-1;i>=0;i--)
+            //for(int i =mystring.Length-1;i>=0;i--)
+            //{
+            //    reverse += mystring[i];
+
+
+
+
+
+            //}
+
+            //Console.WriteLine(reverse);
+            //   Console.ReadKey();
+
+            string[] palindrome = { "maam", "sir", "madam", "teacher", "mom", "level", "world" };
+
+
+            foreach (string word in palindrome)
             {
-                reverse += mystring[i];
+                bool ans = true;
+
+                for (int i=0; i<word.Length/2; i++)
+                {
+                   
+                    if (word[i] != word[word.Length-1-i])
+                    {
+                        ans= false;
+                        break;
+                    }
 
 
 
+                }
+
+                Console.WriteLine($"{word} is {(ans ? "a palindrome" : "Not Palindrome")} ");
+                
 
 
             }
 
-            Console.WriteLine(reverse);
-               Console.ReadKey();
 
-
-
-
-
-
-
+            Console.ReadKey();
 
 
 
