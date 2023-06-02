@@ -64,9 +64,9 @@ namespace Decision_Making___Repeat_Operation
 
             //}
 
-            var vote = voteCount > 0 ? voteCount % 2 == 0 ? " Pos Even Number " : "Pos Neg Number": voteCount < 0 ? "Neg Number" : "Zero Number" ; 
-            Console.WriteLine(vote);
-           
+            //var vote = voteCount > 0 ? voteCount % 2 == 0 ? " Pos Even Number " : "Pos Neg Number": voteCount < 0 ? "Neg Number" : "Zero Number" ; 
+            //Console.WriteLine(vote);
+
 
 
 
@@ -112,14 +112,19 @@ namespace Decision_Making___Repeat_Operation
 
 
 
-            var grade = voteCount >= 90 ? "Outstanding" : voteCount >= 80 ? "good" : voteCount >= 70 ? "Average" : voteCount >= 60 ? "Below Average" : "Bad Performer";
+            //var grade = voteCount >= 90 ? "Outstanding" : voteCount >= 80 ? "good" : voteCount >= 70 ? "Average" : voteCount >= 60 ? "Below Average" : "Bad Performer";
 
-            Console.WriteLine(grade);
+            //Console.WriteLine(grade);
+   
+
+
+            //Null Coalescing
+
+            string name = null;
+            string myname = name ?? "Shojib";
+
+            Console.WriteLine($"My NAME IS {myname}");
             Console.ReadKey();
-
-
-
-
 
 
 
