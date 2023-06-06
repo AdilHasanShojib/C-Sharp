@@ -14,9 +14,9 @@ namespace Decision_Making___Repeat_Operation
 
             // simple if else Condition 
 
-            int voteCount = 0;
-            string result = null;
-            voteCount = 10;
+            //int voteCount = 0;
+            //string result = null;
+            //voteCount = 10;
 
             //if ( voteCount > 0) {
 
@@ -175,34 +175,52 @@ namespace Decision_Making___Repeat_Operation
             //Console.WriteLine(reverse);
             //   Console.ReadKey();
 
-            string[] palindrome = { "maam", "sir", "madam", "teacher", "mom", "level", "world" };
+            //string[] palindrome = { "maam", "sir", "madam", "teacher", "mom", "level", "world" };
 
 
-            foreach (string word in palindrome)
+            //foreach (string word in palindrome)
+            //{
+            //    bool ans = true;
+
+            //    for (int i=0; i<word.Length/2; i++)
+            //    {
+
+            //        if (word[i] != word[word.Length-1-i])
+            //        {
+            //            ans= false;
+            //            break;
+            //        }
+
+
+
+            //    }
+
+            //    Console.WriteLine($"{word} is {(ans ? "a palindrome" : "Not Palindrome")} ");
+
+
+
+            //}
+
+            int i = 0;
+            do
             {
-                bool ans = true;
-
-                for (int i=0; i<word.Length/2; i++)
+                if (i % 2 != 0)
                 {
                    
-                    if (word[i] != word[word.Length-1-i])
-                    {
-                        ans= false;
-                        break;
-                    }
+                    Console.WriteLine(i);
 
-
-
+                    Console.ReadKey();
                 }
 
-                Console.WriteLine($"{word} is {(ans ? "a palindrome" : "Not Palindrome")} ");
-                
+                if (i == 7)
+                {
+                    break;
+
+                }
+                i++;
+            } while (i <= 10);
 
 
-            }
-
-
-            Console.ReadKey();
 
 
 
