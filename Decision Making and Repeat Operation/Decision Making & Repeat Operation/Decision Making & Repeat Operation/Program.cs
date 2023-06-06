@@ -205,18 +205,40 @@ namespace Decision_Making___Repeat_Operation
             //Using Building function to find palindrome word
 
 
-            foreach (var word in palindrome)
-            {
-                bool ans = word.SequenceEqual(word.Reverse());
+            //foreach (var word in palindrome)
+            //{
+            //    bool ans = word.SequenceEqual(word.Reverse());
 
                 
 
-                Console.WriteLine($"{word} is {(ans ? "a palindrome" : "Not Palindrome")} ");
+            //    Console.WriteLine($"{word} is {(ans ? "a palindrome" : "Not Palindrome")} ");
                
 
 
 
+            //}
+
+
+            for(int i = 0; i <=10; i++)
+            {
+
+
+                if (i == 9)
+                {
+                    break;
+                }
+
+                if (i % 2 == 0)
+                {
+                  
+                    continue;
+                }
+
+                Console.WriteLine($"Odd Number is {i}");
             }
+
+
+
 
             Console.ReadKey();
 
