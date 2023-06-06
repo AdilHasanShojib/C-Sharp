@@ -175,7 +175,7 @@ namespace Decision_Making___Repeat_Operation
             //Console.WriteLine(reverse);
             //   Console.ReadKey();
 
-            //string[] palindrome = { "maam", "sir", "madam", "teacher", "mom", "level", "world" };
+            string[] palindrome = { "maam", "sir", "madam", "teacher", "mom", "level", "world" };
 
 
             //foreach (string word in palindrome)
@@ -201,27 +201,24 @@ namespace Decision_Making___Repeat_Operation
 
             //}
 
-            int i = 0;
-            do
+
+            //Using Building function to find palindrome word
+
+
+            foreach (var word in palindrome)
             {
-                if (i % 2 != 0)
-                {
-                   
-                    Console.WriteLine(i);
+                bool ans = word.SequenceEqual(word.Reverse());
 
-                    Console.ReadKey();
-                }
+                
 
-                if (i == 7)
-                {
-                    break;
-
-                }
-                i++;
-            } while (i <= 10);
+                Console.WriteLine($"{word} is {(ans ? "a palindrome" : "Not Palindrome")} ");
+               
 
 
 
+            }
+
+            Console.ReadKey();
 
 
 
