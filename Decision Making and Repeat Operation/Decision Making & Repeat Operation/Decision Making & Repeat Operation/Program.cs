@@ -201,27 +201,89 @@ namespace Decision_Making___Repeat_Operation
 
             //}
 
+
+            //Using Building function to find palindrome word
+
+
+            //foreach (var word in palindrome)
+            //{
+            //    bool ans = word.SequenceEqual(word.Reverse());
+
+
+
+            //    Console.WriteLine($"{word} is {(ans ? "a palindrome" : "Not Palindrome")} ");
+
+
+
+
+            //}
+
+
+            //for(int i = 0; i <=10; i++)
+            //{
+
+
+            //    if (i == 9)
+            //    {
+            //        break;
+            //    }
+
+            //    if (i % 2 == 0)
+            //    {
+
+            //        continue;
+            //    }
+
+            //    Console.WriteLine($"Odd Number is {i}");
+            //}
+
+            //int num = 123456;
+            //int revNum = 0;
+
+            //while (num != 0) {
+
+            //   int mod=num % 10;
+            //    revNum = revNum * 10 + mod;
+            //    num = num / 10;
+
+
+
+
+            //}
+
+
+            //Console.WriteLine(revNum);
+
+
             int i = 0;
             do
             {
-                if (i % 2 != 0)
+                if(i%3==0 && i % 5 == 0)
                 {
-                   
+                    Console.WriteLine("FizzBuzz");
+                }
+
+                else if(i%3==0)
+                {
+                    Console.WriteLine("Fizz");
+                }
+
+                else if (i % 5 == 0)
+                {
+                    Console.WriteLine("Buzz");
+                }
+
+                else
+                {
                     Console.WriteLine(i);
-
-                    Console.ReadKey();
                 }
 
-                if (i == 7)
-                {
-                    break;
-
-                }
                 i++;
-            } while (i <= 10);
+
+            } while (i <=100);
 
 
-
+            Console.ReadKey();
 
 
 
