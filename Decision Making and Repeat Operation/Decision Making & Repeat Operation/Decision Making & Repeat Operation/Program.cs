@@ -175,7 +175,7 @@ namespace Decision_Making___Repeat_Operation
             //Console.WriteLine(reverse);
             //   Console.ReadKey();
 
-            string[] palindrome = { "maam", "sir", "madam", "teacher", "mom", "level", "world" };
+            //string[] palindrome = { "maam", "sir", "madam", "teacher", "mom", "level", "world" };
 
 
             //foreach (string word in palindrome)
@@ -209,37 +209,50 @@ namespace Decision_Making___Repeat_Operation
             //{
             //    bool ans = word.SequenceEqual(word.Reverse());
 
-                
+
 
             //    Console.WriteLine($"{word} is {(ans ? "a palindrome" : "Not Palindrome")} ");
-               
+
 
 
 
             //}
 
 
-            for(int i = 0; i <=10; i++)
-            {
+            //for(int i = 0; i <=10; i++)
+            //{
 
 
-                if (i == 9)
-                {
-                    break;
-                }
+            //    if (i == 9)
+            //    {
+            //        break;
+            //    }
 
-                if (i % 2 == 0)
-                {
-                  
-                    continue;
-                }
+            //    if (i % 2 == 0)
+            //    {
 
-                Console.WriteLine($"Odd Number is {i}");
+            //        continue;
+            //    }
+
+            //    Console.WriteLine($"Odd Number is {i}");
+            //}
+
+            int num = 123456;
+            int revNum = 0;
+
+            while (num != 0) {
+            
+               int mod=num % 10;
+                revNum = revNum * 10 + mod;
+                num = num / 10;
+
+            
+            
+            
             }
 
 
-
-
+            Console.WriteLine(revNum);
             Console.ReadKey();
 
 
