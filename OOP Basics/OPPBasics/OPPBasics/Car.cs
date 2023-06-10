@@ -28,17 +28,49 @@ namespace OPPBasics
 
         public static int price;
 
+        //Default Constructor
+        public Car() {
+
+            Console.WriteLine("Car Has Created");
+        
+        }
+
+
+        // fully Constructor
+
+
+        public Car(Color color, string name, string brand,DateTime year)
+        {
+            this.color=color;
+            this.name=name;
+            this.brand=brand;
+            this.year=year;
+
+
+        }
+        // Partial Constructor
+
+        public Car(Color color,string name,string brand)
+        {
+            this.color = color; 
+            this.name=name;
+            this.brand=brand;
+        }
+
+
+
+
 
         public void Start()
         {
-            Console.WriteLine("Car Has Started");
+            Console.WriteLine($"{this.name} Has Started");
         }
 
 
         public void Speed() {
 
 
-            Console.WriteLine("Car speed is 180 KM/H");
+            Console.WriteLine($"{this.name} speed is 180 km/h");
 
         }
 
