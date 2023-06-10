@@ -27,5 +27,30 @@ namespace OPPBasics
         public DateTime year;
 
         public static int price;
+
+
+        public void Start()
+        {
+            Console.WriteLine("Car Has Started");
+        }
+
+
+        public void Speed() {
+
+
+            Console.WriteLine("Car speed is 180 KM/H");
+
+        }
+
+
+
+
+
+
+
+
+
+
+
     }
 }
