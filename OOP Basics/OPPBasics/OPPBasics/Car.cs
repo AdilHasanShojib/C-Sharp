@@ -28,6 +28,22 @@ namespace OPPBasics
 
         public static int price;
 
+
+
+        public void setname(string name)
+        {
+            this.name = name;
+
+        }
+
+        public string getname(string name)
+        {
+            return this.name;
+
+        }
+
+        //public string setName { get; set; } = "Taxi-600";
+
         //Default Constructor
         public Car() {
 
@@ -77,6 +93,13 @@ namespace OPPBasics
 
 
 
+        public void CarDetails()
+        {
+
+
+            Console.WriteLine($"{this.name} is a car. which color is {this.color}. And its brand is {this.brand}. Its Realease {this.year} years ago");
+
+        }
 
 
 
