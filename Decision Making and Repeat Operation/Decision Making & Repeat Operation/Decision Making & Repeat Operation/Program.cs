@@ -200,7 +200,7 @@ namespace Decision_Making___Repeat_Operation
 
 
             //}
-
+            // 2nd part
 
             //Using Building function to find palindrome word
 
@@ -255,35 +255,82 @@ namespace Decision_Making___Repeat_Operation
             //Console.WriteLine(revNum);
 
 
-            int i = 0;
-            do
-            {
-                if(i%3==0 && i % 5 == 0)
-                {
-                    Console.WriteLine("FizzBuzz");
-                }
+            //int i = 0;
+            //do
+            //{
+            //    if(i%3==0 && i % 5 == 0)
+            //    {
+            //        Console.WriteLine("FizzBuzz");
+            //    }
 
-                else if(i%3==0)
-                {
-                    Console.WriteLine("Fizz");
-                }
+            //    else if(i%3==0)
+            //    {
+            //        Console.WriteLine("Fizz");
+            //    }
 
-                else if (i % 5 == 0)
-                {
-                    Console.WriteLine("Buzz");
-                }
+            //    else if (i % 5 == 0)
+            //    {
+            //        Console.WriteLine("Buzz");
+            //    }
 
-                else
-                {
-                    Console.WriteLine(i);
-                }
+            //    else
+            //    {
+            //        Console.WriteLine(i);
+            //    }
 
-                i++;
+            //    i++;
 
-            } while (i <=100);
+            //} while (i <=100);
 
 
-            Console.ReadKey();
+            //Console.ReadKey();
+
+
+
+            //int i = 0;
+            //do
+            //{
+            //    if (i % 3 == 0 && i % 5 == 0)
+            //    {
+            //        Console.WriteLine("FizzBuzz");
+            //    }
+
+            //    else if (i % 3 == 0)
+            //    {
+            //        Console.WriteLine("Fizz");
+            //    }
+
+            //    else if (i % 5 == 0)
+            //    {
+            //        Console.WriteLine("Buzz");
+            //    }
+
+            //    else
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+
+            //    i++;
+
+            //} while (i <= 100);
+
+
+            //Console.ReadKey();
+
+
+
+           
+
+
+
+
+
+
+
+
+
+
+
 
 
 
