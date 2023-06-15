@@ -7,7 +7,9 @@
             //Console.WriteLine("Hello, World!");
 
 
-
+            Array.AssignArray();
+            Array.ArrayLoop();
+            Array.MultiArray();
 
 
 
