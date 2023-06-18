@@ -11,7 +11,8 @@
             //string[] arr = { "May ", "Be ", "or ", "May ", "be ", "Not!" };
             //Array.parramArray(arr);
             //Array.GenericAndNongeneric();
-            Array.Hashtab();
+            //Array.Hashtab();
+            Array.Dictonary();
         
         
         }
