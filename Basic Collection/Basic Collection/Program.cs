@@ -8,6 +8,9 @@
             Array.MulArray();
             Array.JaggedArray();
 
+            string[] arr = { "May ", "Be ", "or ", "May ", "be ", "Not!" };
+            Array.parramArray(arr);
+
          
         
         
