@@ -12,8 +12,8 @@
             //Array.parramArray(arr);
             //Array.GenericAndNongeneric();
             //Array.Hashtab();
-            Array.Dictonary();
-        
+            //Array.Dictonary();
+            Array.stack();
         
         }
 
