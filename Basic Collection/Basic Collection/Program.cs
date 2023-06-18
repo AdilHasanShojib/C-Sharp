@@ -5,12 +5,12 @@
        public static void Main(string[] args)
         {
 
-            Array.MulArray();
-            Array.JaggedArray();
+            //Array.MulArray();
+            //Array.JaggedArray();
 
-            string[] arr = { "May ", "Be ", "or ", "May ", "be ", "Not!" };
-            Array.parramArray(arr);
-
+            //string[] arr = { "May ", "Be ", "or ", "May ", "be ", "Not!" };
+            //Array.parramArray(arr);
+            Array.GenericAndNongeneric();
          
         
         
