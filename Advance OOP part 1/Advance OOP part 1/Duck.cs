@@ -23,7 +23,7 @@ namespace Advance_OOP_part_1
 
         public override void Fly()
         {
-            Console.WriteLine("Bird Can't Fly");
+            Console.WriteLine($"{Name} Can't Fly");
             base.Fly();
         }
 
