@@ -42,8 +42,29 @@
             //ad.getDetails();
 
 
-            AbstractOOP shape = new Cube(1234);
-            shape.SetInfo();
+            //AbstractOOP shape = new Cube(1234);
+            //shape.SetInfo();
+
+
+
+            // Read File
+
+            //string[] file = System.IO.File.ReadAllLines("D:\\SOFTWARE INDUSTRY\\GitHub\\C-Sharp\\Advanced OOP Part 2\\Advanced OOP Part 2\text.txt");
+
+            ////Console.ReadLine();
+
+            //foreach (var line in file)
+            //{
+            //    Console.WriteLine(line);
+            //}
+
+
+            //Write File
+            string[] strings = { "I hate You, I love  you" };
+
+            File.WriteAllLines("D:\\SOFTWARE INDUSTRY\\GitHub\\C-Sharp\\Advanced OOP Part 2\\Advanced OOP Part 2\text.txt", strings);
+
+
 
 
 
