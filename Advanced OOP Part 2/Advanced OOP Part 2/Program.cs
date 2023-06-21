@@ -36,10 +36,16 @@
 
             // }
 
-            Audi ad = new Audi(500,"RED","AM3");
-            ad.ShowDetails();
-            ad.SetDetails(56001, "Shojib");
-            ad.getDetails();
+            //Audi ad = new Audi(500,"RED","AM3");
+            //ad.ShowDetails();
+            //ad.SetDetails(56001, "Shojib");
+            //ad.getDetails();
+
+
+            AbstractOOP shape = new Cube(1234);
+            shape.SetInfo();
+
+
 
 
 
