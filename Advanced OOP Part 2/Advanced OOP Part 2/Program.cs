@@ -60,13 +60,19 @@
 
 
             //Write File
-            string[] strings = { "I hate You, I love  you" };
+            //string[] strings = { "I hate You, I love  you" };
 
-            File.WriteAllLines("D:\\SOFTWARE INDUSTRY\\GitHub\\C-Sharp\\Advanced OOP Part 2\\Advanced OOP Part 2\text.txt", strings);
-
-
+            //File.WriteAllLines("D:\\SOFTWARE INDUSTRY\\GitHub\\C-Sharp\\Advanced OOP Part 2\\Advanced OOP Part 2\text.txt", strings);
 
 
+
+
+            //MATH Class
+            int num1 = 233;
+            int num2 = 56;
+
+
+            Console.WriteLine("Lower value num {0} and num {1} is {2} ",num1,num2,Math.Min(num1,num2));
 
 
 
