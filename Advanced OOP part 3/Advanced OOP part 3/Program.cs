@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            DateIO.CheckDate();
+            //DateIO.CheckDate();
+            REX.VerifyEmail();
         }
     }
 }

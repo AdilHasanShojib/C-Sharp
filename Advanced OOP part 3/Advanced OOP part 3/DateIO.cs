@@ -30,11 +30,11 @@ namespace Advanced_OOP_part_3
 
             if(life > 0)
             {
-                Console.WriteLine($"You are Alive {life} Days");
+                Console.WriteLine($"You have lived {life} Days");
             }
             else
             {
-                Console.WriteLine("Write Right formate");
+                Console.WriteLine("Write correct formate");
             }
 
         }
@@ -53,7 +53,7 @@ namespace Advanced_OOP_part_3
             DateTime tm;
             if(DateTime.TryParse(Input, out tm))
             {
-                Console.WriteLine(tm);
+                //Console.WriteLine(tm);
                 TimeSpan days=dateTime.Subtract(tm);
                 return days.Days;
             }
