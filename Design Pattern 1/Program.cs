@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            ClientCodeFactory.WithusingFactoryCreditCard();
+            // ClientCodeFactory.WithusingFactoryCreditCard();
+
+            ClientFactoryAbstract.UseAbstractFactory();
         }
     }
 }
