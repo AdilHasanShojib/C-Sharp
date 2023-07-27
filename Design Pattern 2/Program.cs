@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            ClientCodeForUsingPrototype.useprototype();
+            //ClientCodeForUsingPrototype.useprototype();
+
+            ClientForSingleton.UseMultithread();
         }
     }
 }

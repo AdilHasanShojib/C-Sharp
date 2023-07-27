@@ -14,7 +14,7 @@ namespace Design_Pattern_2
         public string Department { set; get; }
         public string University { set; get; }
 
-        public student GetClone()        // shalow copy (non static & value type only)
+        public student GetClone()        // shalow copy (USING IN non static & value type only)
         {
             return  (student)this.MemberwiseClone();
         }
