@@ -4,9 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Design_Pattern_Part_3
+namespace Design_pattern_4
 {
-    internal class Customer
+    public interface IsharedFolder
     {
+
+
+        public void PerformOperation();
+       
+
+
     }
 }
