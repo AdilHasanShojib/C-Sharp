@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="StudentInventory" Class="StudenLINQDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-5903S8A\TECHBYTE;Initial Catalog=StudentInventory;Persist Security Info=True;User ID=sa;Pooling=False" SettingsObjectName="LINQ_Basic_Part__2.Properties.Settings" SettingsPropertyName="StudentInventoryConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Student" Member="Students">
+    <Type Name="Student">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Gender" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="UniversityID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="University_Student" Member="University" ThisKey="UniversityID" OtherKey="Id" Type="University" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.University" Member="Universities">
+    <Type Name="University">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="University_Student" Member="Students" ThisKey="Id" OtherKey="UniversityID" Type="Student" />
+    </Type>
+  </Table>
+</Database>
