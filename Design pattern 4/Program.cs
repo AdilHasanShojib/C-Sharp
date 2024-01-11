@@ -5,9 +5,9 @@
         static void Main(string[] args)
         {
 
-            ClientCodeBridge.UseBridge();
+            //ClientCodeBridge.UseBridge();
 
-
+            ProxyClientCode.UserProxy();
 
 
 

@@ -39,7 +39,7 @@ namespace Design_Pattern_Part_3
 
                 }
 
-                Employees.Add(new Employee(Name!, Salary!));
+                Employees.Add(new Employee(Name!,Salary!));
 
 
             }

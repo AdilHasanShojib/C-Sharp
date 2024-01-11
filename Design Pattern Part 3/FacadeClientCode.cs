@@ -6,7 +6,34 @@ using System.Threading.Tasks;
 
 namespace Design_Pattern_Part_3
 {
-    internal class FacadeClientCode
+    public static class FacadeClientCode
     {
+
+
+        public static void WithoutFacade()
+        {
+            Customer customer = new Customer
+            {
+
+                Name = "SANI",
+                Email = "Sani30@gmail.com"
+            };
+
+
+
+
+
+
+
+
+
+
+            CustomerReg customerReg = new CustomerReg();
+            customerReg.RegCustomer(customer);
+
+
+
+        }
+
     }
 }
