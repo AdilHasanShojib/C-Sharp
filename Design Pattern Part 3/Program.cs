@@ -10,8 +10,8 @@
 
 
 
-            ClientCode.UseAdapter();
-
+           // ClientCode.UseAdapter();
+          
 
 
 

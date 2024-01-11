@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace Design_Pattern_Part_3
 {
-    internal class Email
+    public class Email
     {
+
+        public bool SendRegEmail(Customer customer)
+        {
+            Console.WriteLine("Reg Email Send");
+            return true;
+
+        }
+
+
+
+
+
+
+
+
     }
 }
